@@ -1,3 +1,46 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0,2;   
+}
+.redes{
+    margin-right: 0.5cm;
+}
 #logoAP{
     width: 150px;
+}
+img{
+    width: 50px;
+    filter: invert(70%) sepia(80%) saturate(435%) hue-rotate(119deg) brightness(83%) contrast(95%);
+}
+div{
+    background-color: #030504;
+}
+.btn{
+    border-width: medium;
+}
+
+/*... para la vista de no celular xd ...*/
+@media (min-width: 576px){
+    .redes img{
+        margin: 0.08cm;
+        width: 42px;
+        margin-right: 0.2cm;
+    }
+}
+
+/*... para la vista de celular ...*/
+@media (max-width: 575px){
+    .container{
+        flex-direction: column;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes img{
+        margin: 0.1cm;
+    }
 }

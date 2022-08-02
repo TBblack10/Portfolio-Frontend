@@ -1,11 +1,35 @@
 .row{
-    padding: 20px;
+    padding: 72px;
 }
 div{
-    background-color: #a1b5cb;
+    background-color: #030504;
     text-align: center;
+    color: #235e50;
 }
+
 /*estilo de la foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 19%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 12%;
+        top: 535px;
+    }
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 36%;
+        top: 813px;
+    }
+}
+
+/*..estilo de nombre ..*/
 @media (min-width: 576px){
     #fotodeperfil{
         position: absolute;
@@ -16,21 +40,20 @@ div{
         top: 600px;
     }
 }
-@media (max-width: 575px){
-    #fotodeperfil{
+@media(max-width: 575px){
+    #nombre{
         position: absolute;
-        width: 30%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
-        left: 33%;
-        top: 630px;
+        width: 27%;
+        top: 1025px;
+        left: 27%;
     }
 }
+
 
 /*etiqueta nombre*/
 #nombre{
     font-weight: bold;
-    margin-top: -20%;
+    margin-top: -55%;
     margin-left: 40px;
 }
 
@@ -41,5 +64,5 @@ div{
 
 /*acerca de mi*/
 #acercademi{
-    margin-top: -72px;
+    margin-top: -105px;
 }
