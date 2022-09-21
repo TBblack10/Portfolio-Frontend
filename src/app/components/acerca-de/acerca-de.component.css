@@ -1,0 +1,63 @@
+.row{
+    padding: 72px;
+}
+div{
+    background-color: #030504;
+    text-align: center;
+    color: #235e50;
+}
+
+/*estilo de la foto de perfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        left: 7%;
+        top: 610px;
+    }
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        left: 36%;
+        top: 813px;
+    }
+}
+
+/*..estilo de nombre ..*/
+@media (min-width: 576px){
+    #nombre{
+        font-weight: bold;
+        margin-top: -55%;
+        margin-left: 40px;
+    }
+}
+@media(max-width: 575px){
+    #nombre{
+        position: absolute;
+        width: 27%;
+        top: 1025px;
+        left: 27%;
+    }
+}
+
+
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: -55%;
+    margin-left: 40px;
+}
+
+/*full stack developer*/
+#fsd{
+    margin-left: 40px;
+}
+
+/*acerca de mi*/
+#acercademi{
+    margin-top: -105px;
+}
